@@ -126,54 +126,70 @@ Cú pháp:
 ## 11. Vòng lặp trong PHP
 
 Cú pháp vòng lặp while và do while:
-while(điều kiện đúng)
-{
-    khối lệnh;
-}
-do
-{
-    khối lệnh
-}while(điều kiện đúng);
+
+       while(điều kiện đúng)
+       {
+           khối lệnh;
+       }
+       do
+       {
+           khối lệnh
+       }while(điều kiện đúng);
+
 Cú pháp vòng lặp for:
-for(điều kiện đầu, điều kiện cuối, bước nhảy)
-{
-    khối lệnh;
-}
+
+       for(điều kiện đầu, điều kiện cuối, bước nhảy)
+       {
+           khối lệnh;
+       }
 Cú pháp vòng lặp foreach: Chỉ hoạt động trên các mảng, được lặp qua từng cặp giá trị trong một mảng.
-foreach ($array as $value){
-    khối lệnh;
-}
+
+       foreach ($array as $value){
+           khối lệnh;
+       }
 ## 12.Hàm trong PHP
 
 Là một khối lệnh có thể sử dụng nhiều lần trong một chương trình
+
 Hàm sẽ không thực hiện ngay lập tức khi trang tải
+
 Hàm sẽ thực hiện khi ta gọi hàm
+
 Tên hàm có thể bắt đầu bằng chữ hoặc dấu gạch dưới nhưng không phải chữ
+
 Những tên hàm không phân biệt hoa thường.
+
 Cú pháp tạo hàm:
-function tên_hàm()
-{
+
+       function tên_hàm()
+       {
     khối lệnh;
-}
+       }
 Có hai kiểu truyền dữ liệu vào hàm:
 
 Kiểu truyền khi gọi hàm
-function vidu($chuoi)
-{
+       
+       function vidu($chuoi)
+       {
     echo $chuoi;
-}
-vidu("Helloword!");
+       }
+       vidu("Helloword!");
 KIểu truyền trực tiếp
-function vidu($chuoi="Helloword!")
-{
-    echo $chuoi;
-}
-Có thể trả lại giá trị cho hàm bằng câu lệnh return giá_trị_trả_về;
+       
+       function vidu($chuoi="Helloword!")
+       {
+           echo $chuoi;
+       }
+Có thể trả lại giá trị cho hàm bằng câu lệnh return `giá_trị_trả_về;`
+
 ## 13. Mảng trong PHP
 
 Một mảng lưu trữ nhiều giá trị trong một biến duy nhất
+
 Mảng là một biến đặc biệt có thể chứa nhiều hơn một giá trị tại một thời điểm
+
 Để tạo bảng trong PHP, ta sử dụng hay array(). Có 3 kiểu bảng:
+`
 indexed arrays: Mảng với một chỉ số
 $mang = array("Hello","World");
 echo $mang[0]; => Hello
@@ -181,20 +197,32 @@ echo $mang[1[; => World
 Associative arrays: Mảng với từ khóa được đặt tên
 $mavung = array("Ha Noi"=>"04","Da Nang"=>"0511","Ho Chi Minh"=>"08");
 Multidimensional arrays: mảng nhiều chiều
+`
+`
 $mangnc = array
     (
-        array("Valve","Dota2","CSGO");
-        array("EA","BattleFiled","Fifa");
-        array("Blizzard","Warcraft","Diablo");
+        
+        array("HanQuoc","My","Australia");
+        array("Nasa","Kata","Fifa");
+        array("ThitHeo","ThitBo","ThitDe");
     );
+`
+
 Để đếm số phần tử trong mảng thì dùng hàm count()
+
 Sử dụng vòng lặp for đối với mảng chỉ mục và foreach đối với mảng từ khóa.
-Hàm sort() sắp xếp mảng theo thứ tự A-Z, sô tăng dần
-Hàm rsort() sắp xếp mảng theo thứ tự Z-A, số giảm dần
-Hàm asort() sắp xếp tăng dần theo giá trị trong mảng từ khóa
-Hàm ksort() sắp xếp tăng dần theo từ khóa trong mảng từ khóa
-hàm arsort() sắp xếp giảm dần theo giá trị trong mảng từ khóa
-Hàm krsort() sắp xếp giảm dần theo từ khóa trong mảng từ khóa
+
+- Hàm sort() sắp xếp mảng theo thứ tự A-Z, sô tăng dần
+
+- Hàm rsort() sắp xếp mảng theo thứ tự Z-A, số giảm dần
+
+- Hàm asort() sắp xếp tăng dần theo giá trị trong mảng từ khóa
+
+- Hàm ksort() sắp xếp tăng dần theo từ khóa trong mảng từ khóa
+
+- Hàm arsort() sắp xếp giảm dần theo giá trị trong mảng từ khóa
+
+- Hàm krsort() sắp xếp giảm dần theo từ khóa trong mảng từ khóa
 ## 14. Biến toàn cục và biến cục bộ trong PHP
 
 Biến cục bộ là các biến chỉ được sử dụng trong một trang, hoặc một hàm mà nó được khai báo.
