@@ -199,21 +199,20 @@ Mảng là một biến đặc biệt có thể chứa nhiều hơn một giá t
 
 Để tạo bảng trong PHP, ta sử dụng hay array(). Có 3 kiểu bảng:
 
-`
-indexed arrays: Mảng với một chỉ số
 
-$mang = array("Hello","World");
+- Indexed arrays: Mảng với một chỉ số
 
-echo $mang[0]; => Hello
+       $mang = array("Hello","World");
 
-echo $mang[1[; => World
+       echo $mang[0]; => Hello
 
-Associative arrays: Mảng với từ khóa được đặt tên
+       echo $mang[1[; => World
 
-$soxe = array("Quang Tri"=>"74","Hue"=>"75","Ho Chi Minh"=>"59");
+- Associative arrays: Mảng với từ khóa được đặt tên
+
+       $soxe = array("Quang Tri"=>"74","Hue"=>"75","Ho Chi Minh"=>"59");
 
 Multidimensional arrays: mảng nhiều chiều
-`
 
 `
 $mangnc = array
