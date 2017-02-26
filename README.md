@@ -1,5 +1,6 @@
 # PHP-training Write-up 
 
+## 1. Các kiến thức cơ bản về PHP
 4 thành phần tạo nên 1 trang web động là 1 web server(apache) , 1 ngôn ngữ kịch bản trên máy chủ ( server-side scritipting language : PHP , ASP , ASP.NET ..) , 1 hệ quảng trị cơ sở dữ liệu , 1 ngôn ngữ phía máy khách ( java scrip)
 
 Sự khác biệt giữa PHP và Javascrip 
@@ -12,15 +13,11 @@ PHP có thể giao tiếp với database còn javascrip thì không
 
 Javascrip có thể xóa các thẻ trong html một cách thuận lời còn php thì không 
 
-Nếu gặp 1 bug trong một mã nguồn mở thì bạn có thể fixe nhờ nhà phát hành 
+Nếu gặp 1 bug trong một mã nguồn mở thì bạn có thể fix nhờ nhà phát hành 
 
----------------------------------------------------------------------------------------------------------------------------------------
-
-Cách nhúng php vào một file HTML
+## 2. Cách nhúng php vào một file HTML
 
 Ta chỉ cần đánh dấu vùng nhập code PHP bằng <?php   ?> rồi sau đó nhập code vào trong đó 
-
---------------------------------------------------------------------------------------------------------------------------------------
 
 Mục đích của chương trình FTP giúp kết nối giữa máy khách và máy chủ như update hay download ...
 
