@@ -106,23 +106,23 @@ Cú pháp:
 Thực hiện các câu lệnh khác nhau dựa trên các điều kiện khác nhau.
 
 Cú pháp:
-`
-switch(n)
-{
-    case 1:
-        khối lệnh 1;
-        break;
-    case 2:
-        khối lệnh 2;
-        break;
-    ......
-    case n:
-        khối lệnh n;
-        break;
-    default:
-        khối lệnh nếu n khác các case;
-}
-`
+
+       switch(n)
+       {
+           case 1:
+               khối lệnh 1;
+               break;
+           case 2:
+               khối lệnh 2;
+               break;
+           ......
+           case n:
+               khối lệnh n;
+               break;
+           default:
+               khối lệnh nếu n khác các case;
+       }
+
 ## 11. Vòng lặp trong PHP
 
 Cú pháp vòng lặp while và do while:
