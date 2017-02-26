@@ -79,7 +79,9 @@ Không giống như các biến, hằng số được sữ dụng trên toàn b�
 Để tạo một hằng, ta sử dụng hàm define():
 
 `define(name, value, case-insensitive)` 
+
 Trong đó 
+
        name là tên hằng 
        value là giá trị hằng 
        case-insensitive mặc định là False 
@@ -93,16 +95,18 @@ Trong so sánh, $x===$y nghĩa là trả về true nếu $x bằng $y và chúng
 
 Cú pháp:
 
-if (điều kiện 1)
-{ Khôi lệnh hoạt động khi điều kiện đúng;}
-elseif(điều kiện 2)
-{ Khối lệnh hoạt động khi điều kiện 2 đúng;}
-else
-{ Khối lệnh hoạt động khi cả hai điều kiện trên sai;}
+       if (điều kiện 1)
+       { Câu lệnh khi điều kiện 1 đúng;}
+       elseif(điều kiện 2)
+       { Câu lệnh khi điều khiện 2 đúng;}
+       else
+       { Câu lệnh khi cả 1 và 2 đều không đúng;}
 ## 10.Câu lệnh Switch
 
 Thực hiện các câu lệnh khác nhau dựa trên các điều kiện khác nhau.
+
 Cú pháp:
+`
 switch(n)
 {
     case 1:
@@ -118,6 +122,7 @@ switch(n)
     default:
         khối lệnh nếu n khác các case;
 }
+`
 ## 11. Vòng lặp trong PHP
 
 Cú pháp vòng lặp while và do while:
