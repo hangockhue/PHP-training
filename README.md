@@ -48,11 +48,15 @@ tất cả các tham số đó thì ta chỉ cần quan tâm đến 4 tham số 
 
 Quy tắc đặt trong PHP:
 
-Một biến trong PHP bắt đầu với ký tự $, theo sau nó là tên của biến
-Một biến phải bắt đầu bằng một chữ cái hoặc một dấu gạch dưới
-Một biến không thể bắt đầu bằng một số
-Một biến có thể chỉ có chữ cái, số và dấu gạch dưới
-Cùng một tên nhưng biến chữ hoa và chữ thường là hai biến khác nhau
+- Một biến trong PHP bắt đầu với ký tự $, theo sau nó là tên của biến
+
+- Một biến phải bắt đầu bằng một chữ cái hoặc một dấu gạch dưới
+
+- Một biến không thể bắt đầu bằng một số
+
+- Một biến có thể chỉ có chữ cái, số và dấu gạch dưới
+
+- Cùng một tên nhưng biến chữ hoa và chữ thường là hai biến khác nhau
 ## 4.Xuất ra màn hình trong PHP
 
 Sử dụng hai hàm là echo và print để xuất ra màn hình echo "Helloword!" print "Helloword!"
@@ -60,6 +64,7 @@ Sử dụng hai hàm là echo và print để xuất ra màn hình echo "Hellowo
 ## 5.Kiểu dữ liệu
 
 PHP hỗ trợ các kiểu dữ liệu sau: String, integer, float, boolean, array, object, null, resource
+
 Từ các phiên bản php 5 trở xuống thì các biến không cần khai báo kiểu dữ liệu. Còn PHP 7 thì có thể khai báo các kiểu dữ liệu
 
 ## 6. String trong PHP
@@ -162,15 +167,15 @@ Cú pháp vòng lặp foreach: Chỉ hoạt động trên các mảng, được 
        }
 ## 12.Hàm trong PHP
 
-Là một khối lệnh có thể sử dụng nhiều lần trong một chương trình
+- Là một khối lệnh có thể sử dụng nhiều lần trong một chương trình
 
-Hàm sẽ không thực hiện ngay lập tức khi trang tải
+- Hàm sẽ không thực hiện ngay lập tức khi trang tải
 
-Hàm sẽ thực hiện khi ta gọi hàm
+- Hàm sẽ thực hiện khi ta gọi hàm
 
-Tên hàm có thể bắt đầu bằng chữ hoặc dấu gạch dưới nhưng không phải chữ
+- Tên hàm có thể bắt đầu bằng chữ hoặc dấu gạch dưới nhưng không phải chữ
 
-Những tên hàm không phân biệt hoa thường.
+- Những tên hàm không phân biệt hoa thường.
 
 Cú pháp tạo hàm:
 
@@ -216,7 +221,7 @@ Mảng là một biến đặc biệt có thể chứa nhiều hơn một giá t
 
        $soxe = array("Quang Tri"=>"74","Hue"=>"75","Ho Chi Minh"=>"59");
 
-Multidimensional arrays: mảng nhiều chiều
+- Multidimensional arrays: mảng nhiều chiều
 
 `
 $mangnc = array
@@ -228,9 +233,7 @@ $mangnc = array
     );
 `
 
-Để đếm số phần tử trong mảng thì dùng hàm count()
-
-Sử dụng vòng lặp for đối với mảng chỉ mục và foreach đối với mảng từ khóa.
+- Để đếm số phần tử trong mảng thì dùng hàm count()
 
 - Hàm sort() sắp xếp mảng theo thứ tự A-Z, sô tăng dần
 
@@ -246,21 +249,22 @@ Sử dụng vòng lặp for đối với mảng chỉ mục và foreach đối v
 ## 14. Biến toàn cục và biến cục bộ trong PHP
 
 Biến cục bộ là các biến chỉ được sử dụng trong một trang, hoặc một hàm mà nó được khai báo.
+
 Biến toàn cục khác với biến cục bộ là không giới hạn phạm vi sử dụng.
+
 Một số biến toàn cục thường được sử dụng:
 
-$GLOBALS : được sử dụng để truy cập các biến toàn cầu từ bất cứ nơi nào
-$_SERVER: biến toàn cầu nắm giữ thông tin về tiêu đề, đường dẫn, địa điểm của kịch bản. Trong biến server, có một vài thành phần quan trọng khác.
-$_REQUEST: sử dụng để thu thập dữ liệu sau khi nộp submit mẫu form HTML
-$_POST: được sử dụng rộng rãi để thu thập dữ liệu form sau khi submit form HTML với phương thức post. Nó cũng được sử dụng rộng rãi để vượt qua các biến.
-$_GET: Tương tự như $_POST, nhưng nó sử dụng phương thức get. Nó có thể thu thập dữ liệu gửi trong url.
-$_FILES
-$_ENV
-$_COOKIE
-$_SESSION
-Note:
+`$GLOBALS` : được sử dụng để truy cập các biến toàn cầu từ bất cứ nơi nào
 
-Phương thức GET là phương thức gửi dữ liệu thông qua URL. Phương thức POST gửi dữ liệu qua form HTML.
+`$_SERVER`: biến toàn cầu nắm giữ thông tin về tiêu đề, đường dẫn, địa điểm của kịch bản. Trong biến server, có một vài thành phần quan trọng khác.
+
+`$_REQUEST`: sử dụng để thu thập dữ liệu sau khi nộp submit mẫu form HTML
+
+`$_POST`: được sử dụng rộng rãi để thu thập dữ liệu form sau khi submit form HTML với phương thức post. Nó cũng được sử dụng rộng rãi để vượt qua các biến.Có bảo mật hơn phương thức `$_GET`.Phương thức POST gửi dữ liệu qua form HTML.
+
+`$_GET`: Tương tự như `$_POST`, nhưng nó sử dụng phương thức get. Nó có thể thu thập dữ liệu gửi trong url.Phương thức GET là phương thức gửi dữ liệu thông qua URL. 
+
+
 
 
 
