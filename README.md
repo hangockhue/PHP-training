@@ -198,6 +198,7 @@ Một mảng lưu trữ nhiều giá trị trong một biến duy nhất
 Mảng là một biến đặc biệt có thể chứa nhiều hơn một giá trị tại một thời điểm
 
 Để tạo bảng trong PHP, ta sử dụng hay array(). Có 3 kiểu bảng:
+
 `
 indexed arrays: Mảng với một chỉ số
 
