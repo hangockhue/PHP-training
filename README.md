@@ -25,23 +25,25 @@ Cách kết nối database với php
 
 Để kết nối database ta sẽ dùng hàm mysqli_connect với cấu trúc sau
 
-mysqli_connect($host,$user,$password,$database,$port,$socket).
+`mysqli_connect($host,$user,$password,$database,$port,$socket).`
 
 Trong đó 
 
-$host là địa chỉ host của bạn
+`      $host là địa chỉ host của bạn
 
-$user và $password là tên đăng nhập và mật khẩu kết nối vào database
+       $user và $password là tên đăng nhập và mật khẩu kết nối vào database
 
-$database là tên database bạn chọn để sử lý
+       $database là tên database bạn chọn để sử lý
 
-$port là cổng kết nối 
+       $port là cổng kết nối 
 
-$socket phương thức socket kết nối
+       $socket phương thức socket kết nối
+ `
 
 Ví dụ 
 
-$ketnoi = mysqli_connect('localhost','ngockhue','ngockhue123','demo') or die ('Không thể kết nối tới database') tất cả các tham số đó thì ta chỉ cần quan tâm đến 4 tham số đầu tiên 2 tham số còn lại không cần truyền vào . Còn đoạn code or die nghĩa là nếu không thể kết nối với database thì nó sẽ in ra màn hình thông báo đó 
+`$ketnoi = mysqli_connect('localhost','ngockhue','ngockhue123','demo') or die ('Không thể kết nối tới database')`
+tất cả các tham số đó thì ta chỉ cần quan tâm đến 4 tham số đầu tiên 2 tham số còn lại không cần truyền vào . Còn đoạn code or die nghĩa là nếu không thể kết nối với database thì nó sẽ in ra màn hình thông báo đó 
 
 
 
