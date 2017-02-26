@@ -65,17 +65,25 @@ Từ các phiên bản php 5 trở xuống thì các biến không cần khai b�
 ## 6. String trong PHP
 
 Các hàm xử lý chuỗi trong PHP
-
+`
 strlen(): Đo độ dài của chuỗi
 str_word_count(): đếm số từ trong một chuỗi
 strrev(): đảo ngược chuỗi
 strpos(): tìm kiếm một từ được chỉ định trong chuỗi
 str_replace(): thay đổi một vài ký tự bằng các ký tự khác được chỉ định trong chuỗi.
+`
 ## 7. Hằng trong PHP
 
 Không giống như các biến, hằng số được sữ dụng trên toàn bộ kịch bản
+
 Để tạo một hằng, ta sử dụng hàm define():
-define(name, value, case-insensitive) Trong đó name là tên hằng, value là giá trị hằng, case-insensitive mặc định là false, nếu đặt là True thì khi gọi tên hằng, ta không cần chú trọng đến viết hoa hay viết thường trong tên.
+
+`define(name, value, case-insensitive)` 
+Trong đó 
+       name là tên hằng 
+       value là giá trị hằng 
+       case-insensitive mặc định là False 
+Nếu đặt là True thì khi gọi tên hằng, ta không cần chú trọng đến viết hoa hay viết thường trong tên.
 ## 8. Toán tử trong PHP
 
 Toán tử trong PHP tương tự như trong python
