@@ -67,9 +67,13 @@ Từ các phiên bản php 5 trở xuống thì các biến không cần khai b�
 Các hàm xử lý chuỗi trong PHP
 `
 strlen(): Đo độ dài của chuỗi
+
 str_word_count(): đếm số từ trong một chuỗi
+
 strrev(): đảo ngược chuỗi
+
 strpos(): tìm kiếm một từ được chỉ định trong chuỗi
+
 str_replace(): thay đổi một vài ký tự bằng các ký tự khác được chỉ định trong chuỗi.
 `
 ## 7. Hằng trong PHP
