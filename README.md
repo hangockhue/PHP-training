@@ -65,17 +65,17 @@ Từ các phiên bản php 5 trở xuống thì các biến không cần khai b�
 ## 6. String trong PHP
 
 Các hàm xử lý chuỗi trong PHP
-`
-strlen(): Đo độ dài của chuỗi
 
-str_word_count(): đếm số từ trong một chuỗi
+       strlen(): Đo độ dài của chuỗi
 
-strrev(): đảo ngược chuỗi
+       str_word_count(): đếm số từ trong một chuỗi
 
-strpos(): tìm kiếm một từ được chỉ định trong chuỗi
+       strrev(): đảo ngược chuỗi
 
-str_replace(): thay đổi một vài ký tự bằng các ký tự khác được chỉ định trong chuỗi.
-`
+       strpos(): tìm kiếm một từ được chỉ định trong chuỗi
+
+       str_replace(): thay đổi một vài ký tự bằng các ký tự khác được chỉ định trong chuỗi.
+
 ## 7. Hằng trong PHP
 
 Không giống như các biến, hằng số được sữ dụng trên toàn bộ kịch bản
