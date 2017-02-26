@@ -89,17 +89,25 @@ Nếu đặt là True thì khi gọi tên hằng, ta không cần chú trọng �
 ## 8. Toán tử trong PHP
 
 Toán tử trong PHP tương tự như trong python
+
 Trong so sánh, $x===$y nghĩa là trả về true nếu $x bằng $y và chúng cùng kiểu . $x!==$y trả về đúng nếu $x khác $y.
+
 Đối với chuỗi, . để nối 2 chuỗi lại, còn .= là lấy chuỗi trái = chuỗi trái nối với chuỗi phải. Ví dụ $v1.=$v2 <=> $v1=$v1.$v2
+
 ## 9. Câu lệnh điều khiển
 
 Cú pháp:
 
        if (điều kiện 1)
+       
        { Câu lệnh khi điều kiện 1 đúng;}
+       
        elseif(điều kiện 2)
+       
        { Câu lệnh khi điều khiện 2 đúng;}
+       
        else
+       
        { Câu lệnh khi cả 1 và 2 đều không đúng;}
 ## 10.Câu lệnh Switch
 
@@ -145,6 +153,7 @@ Cú pháp vòng lặp for:
 Cú pháp vòng lặp foreach: Chỉ hoạt động trên các mảng, được lặp qua từng cặp giá trị trong một mảng.
 
        foreach ($array as $value){
+           
            khối lệnh;
        }
 ## 12.Hàm trong PHP
@@ -191,13 +200,20 @@ Mảng là một biến đặc biệt có thể chứa nhiều hơn một giá t
 Để tạo bảng trong PHP, ta sử dụng hay array(). Có 3 kiểu bảng:
 `
 indexed arrays: Mảng với một chỉ số
+
 $mang = array("Hello","World");
+
 echo $mang[0]; => Hello
+
 echo $mang[1[; => World
+
 Associative arrays: Mảng với từ khóa được đặt tên
-$mavung = array("Ha Noi"=>"04","Da Nang"=>"0511","Ho Chi Minh"=>"08");
+
+$soxe = array("Quang Tri"=>"74","Hue"=>"75","Ho Chi Minh"=>"59");
+
 Multidimensional arrays: mảng nhiều chiều
 `
+
 `
 $mangnc = array
     (
